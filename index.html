@@ -12119,20 +12119,20 @@ The output, $y$, is a 2D matrix of shape $S \times N$ which is just $S$ One-Hot 
 <p>That was a lot of talk, let's see an example:
 Suppose we have a corpus which has $N = 4$ unique characters - 'a', 'b', 'c', and 'd' - and we decide that $L = 3$.
 The first input and output created from the string 'cabd' would look like this:
-\begin{align<em>}
-X<em>{0} &amp;= \begin{bmatrix}
-            0 &amp; 1 &amp; 0\
-            0 &amp; 0 &amp; 1\
-            1 &amp; 0 &amp; 0\
-            0 &amp; 0 &amp; 0
+\begin{align*}
+X_{0} &= \begin{bmatrix}
+            0 & 1 & 0\\
+            0 & 0 & 1\\
+            1 & 0 & 0\\
+            0 & 0 & 0
          \end{bmatrix}%
-,&amp; y</em>{0} &amp;= \begin{bmatrix}
-                0\
-                0\
-                0\
+,& y_{0} &= \begin{bmatrix}
+                0\\
+                0\\
+                0\\
                 1
             \end{bmatrix}
-\end{align</em>}</p>
+\end{align*}</p>
 
 </div>
 </div>
